@@ -9,7 +9,7 @@ input:
   __build: 'true'
   __debug: 'false'
   __test: 'true'
-  Packer-Build-Git-Repository: https://github.com/VMwareCMBUTMM/fielddemo-packer-templates
+  Packer-Build-Git-Repository: https://github.com/Shashadow/fielddemo-packer-templates
   Packer-Build-Images: CentOS8,Ubuntu1804,Windows2016
   Packer-Build-vCenter-Cluster: ClusterName
   Packer-Build-vCenter-Datastore: DatastoreName
