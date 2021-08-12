@@ -87,7 +87,7 @@ _inputMeta:
     description: Name of the vCenter Server that Packer will use to build
 workspace:
   endpoint: smcg-sc2-docker-host - TLS
-  image: sammcgeown/codestream-ci-packer:latest
+  image: Shashadow/codestream-ci-packer:latest
   registry: ''
   path: /build
   autoCloneForTrigger: true
