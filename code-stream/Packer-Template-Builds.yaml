@@ -11,18 +11,18 @@ input:
   __test: 'true'
   Packer-Build-Git-Repository: https://github.com/Shashadow/fielddemo-packer-templates
   Packer-Build-Images: CentOS8,Ubuntu1804,Windows2016
-  Packer-Build-vCenter-Cluster: ClusterName
-  Packer-Build-vCenter-Datastore: DatastoreName
-  Packer-Build-vCenter-Folder: FolderName
-  Packer-Build-vCenter-Network: NetworkName
-  Packer-Build-vCenter-Server: vCenterFQDN
-  Packer-Build-vCenter-User: vCenterUser
-  Packer-Build-vCenter-User-Password: vCenterPassword
-  Packer-Build-vRA-Password: vRAPassword
-  Packer-Build-vRA-Project: vRAProject
-  Packer-Build-vRA-Url: vRAURL
-  Packer-Build-vRA-Username: vRAUser
-  Packer-Build-vRA-vSphere-Cloud-Account: vRAvSphereCloudAccount
+  Packer-Build-vCenter-Cluster: Cluster1
+  Packer-Build-vCenter-Datastore: Lun-2-Raid5-SSD
+  Packer-Build-vCenter-Folder: vRA-VM
+  Packer-Build-vCenter-Network: vLAN-001 (Net 206)
+  Packer-Build-vCenter-Server: vcenter1.konyxia.local
+  Packer-Build-vCenter-User: administrator@vsphere.local
+  Packer-Build-vCenter-User-Password: Asrp13bgv2!
+  Packer-Build-vRA-Password: Toto123!
+  Packer-Build-vRA-Project: Project New Win2019
+  Packer-Build-vRA-Url: https://vra1-16.konyxia.local
+  Packer-Build-vRA-Username: david
+  Packer-Build-vRA-vSphere-Cloud-Account: vcenter1
   Packer-Build-SSH-User: SshUserName
   Packer-Build-SSH-Password: SshUserPassword
 _inputMeta:
