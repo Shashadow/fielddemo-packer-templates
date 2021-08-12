@@ -9,7 +9,7 @@ input:
   __build: 'true'
   __debug: 'false'
   __test: 'true'
-  Packer-Build-Git-Repository: https://github.com/Shashadow/fielddemo-packer-templates
+  Packer-Build-Git-Repository: https://github.com/shashadow/fielddemo-packer-templates
   Packer-Build-Images: CentOS8,Ubuntu1804,Windows2016
   Packer-Build-vCenter-Cluster: Cluster1
   Packer-Build-vCenter-Datastore: Lun-2-Raid5-SSD
