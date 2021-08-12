@@ -23,8 +23,8 @@ input:
   Packer-Build-vRA-Url: https://vra1-16.konyxia.local
   Packer-Build-vRA-Username: david
   Packer-Build-vRA-vSphere-Cloud-Account: vcenter1
-  Packer-Build-SSH-User: SshUserName
-  Packer-Build-SSH-Password: SshUserPassword
+  Packer-Build-SSH-User: root
+  Packer-Build-SSH-Password: Toto123!
 _inputMeta:
   Packer-Build-vCenter-Network:
     mandatory: true
