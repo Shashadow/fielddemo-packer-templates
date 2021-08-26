@@ -15,7 +15,7 @@
     "winrm_username": "Administrator",
     "winrm_password": "Toto123!",
 
-    "http_server": "https://github.com/Shashadow/fielddemo-packer-templates/tree/master/config",
+    "http_server": "https://raw.githubusercontent.com/shashadow/fielddemo-packer-templates/master/config",
 
     "ubuntu1804_vm_name": "packer-ubuntu1804",
     "ubuntu1804_iso": "[Lun-2-Raid5-SSD] _iso/ubuntu-18.04.3-server-amd64.iso",
