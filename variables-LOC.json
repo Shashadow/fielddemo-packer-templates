@@ -4,7 +4,7 @@
     "vcenter_password": "Asrp13bgv2!",
     "vcenter_datastore": "Lun-2-Raid5-SSD",
     "vcenter_folder": "vRA-VM",
-    "vcenter_cluster": "Cluster1",
+    "vcenter_cluster": "Cluster",
     "vcenter_network": "vLAN-001 (Net 206)",
 
     "buildtime": "2006-01-02 15-04-05+0800",
