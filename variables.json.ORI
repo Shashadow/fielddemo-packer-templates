@@ -1,19 +1,19 @@
 {
-    "vcenter_server": "vcenter1.konyxia.local",
-    "vcenter_username": "administrator@vsphere.local",
-    "vcenter_password": "Asrp13bgv2!",
-    "vcenter_datastore": "Lun-2-Raid5-SSD",
-    "vcenter_folder": "vRA-VM",
-    "vcenter_cluster": "Cluster",
-    "vcenter_network": "vLAN-001 (Net 206)",
+    "vcenter_server": "{{ env `VCSERVER`}}",
+    "vcenter_username": "{{ env `VCUSER`}}",
+    "vcenter_password": "{{ env `VCPASS`}}",
+    "vcenter_datastore": "{{ env `VCDATASTORE`}}",
+    "vcenter_folder": "{{ env `VCFOLDER`}}",
+    "vcenter_cluster": "{{ env `VCCLUSTER`}}",
+    "vcenter_network": "{{ env `VCNETWORK`}}",
 
-    "buildtime": "2006-01-02 15-04-05+0800",
+    "buildtime": "{{ env `BUILDTIME`}}",
 
-    "ssh_username": "root",
-    "ssh_password": "Toto123!",
+    "ssh_username": "{{ env `SSHUSER`}}",
+    "ssh_password": "{{ env `SSHPASS`}}",
 
     "winrm_username": "Administrator",
-    "winrm_password": "Toto123!",
+    "winrm_password": "{{ env `SSHPASS`}}",
 
     "http_server": "https://raw.githubusercontent.com/shashadow/fielddemo-packer-templates/master/config",
 
